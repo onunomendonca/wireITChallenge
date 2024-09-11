@@ -1,0 +1,6 @@
+framework module StringServiceSDK {
+  umbrella header "StringServiceSDK.h"
+  export *
+
+  module * { export * }
+}

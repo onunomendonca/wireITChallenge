@@ -1,0 +1,480 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StringServiceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StringServiceError",
+        "printedName": "StringServiceError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StringServiceSDK.StringServiceError.Type) -> StringServiceSDK.StringServiceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StringServiceError",
+                    "printedName": "StringServiceSDK.StringServiceError",
+                    "usr": "s:16StringServiceSDK0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StringServiceSDK.StringServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringServiceError",
+                        "printedName": "StringServiceSDK.StringServiceError",
+                        "usr": "s:16StringServiceSDK0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16StringServiceSDK0aB5ErrorO10invalidURLyA2CmF",
+            "mangledName": "$s16StringServiceSDK0aB5ErrorO10invalidURLyA2CmF",
+            "moduleName": "StringServiceSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StringServiceSDK.StringServiceError.Type) -> StringServiceSDK.StringServiceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StringServiceError",
+                    "printedName": "StringServiceSDK.StringServiceError",
+                    "usr": "s:16StringServiceSDK0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StringServiceSDK.StringServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringServiceError",
+                        "printedName": "StringServiceSDK.StringServiceError",
+                        "usr": "s:16StringServiceSDK0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16StringServiceSDK0aB5ErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s16StringServiceSDK0aB5ErrorO15invalidResponseyA2CmF",
+            "moduleName": "StringServiceSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StringServiceError",
+                "printedName": "StringServiceSDK.StringServiceError",
+                "usr": "s:16StringServiceSDK0aB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StringServiceError",
+                "printedName": "StringServiceSDK.StringServiceError",
+                "usr": "s:16StringServiceSDK0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16StringServiceSDK0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16StringServiceSDK0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "StringServiceSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16StringServiceSDK0aB5ErrorO9hashValueSivp",
+            "mangledName": "$s16StringServiceSDK0aB5ErrorO9hashValueSivp",
+            "moduleName": "StringServiceSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16StringServiceSDK0aB5ErrorO9hashValueSivg",
+                "mangledName": "$s16StringServiceSDK0aB5ErrorO9hashValueSivg",
+                "moduleName": "StringServiceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16StringServiceSDK0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16StringServiceSDK0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "StringServiceSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16StringServiceSDK0aB5ErrorO",
+        "mangledName": "$s16StringServiceSDK0aB5ErrorO",
+        "moduleName": "StringServiceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StringServiceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StringService",
+        "printedName": "StringService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(session:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StringService",
+                "printedName": "StringServiceSDK.StringService",
+                "usr": "s:16StringServiceSDK0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionProtocol",
+                "printedName": "any StringServiceSDK.URLSessionProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:16StringServiceSDK18URLSessionProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16StringServiceSDK0aB0C7sessionAcA18URLSessionProtocol_p_tcfc",
+            "mangledName": "$s16StringServiceSDK0aB0C7sessionAcA18URLSessionProtocol_p_tcfc",
+            "moduleName": "StringServiceSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sendString",
+            "printedName": "sendString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16StringServiceSDK0aB0C04sendA0yySSYaKF",
+            "mangledName": "$s16StringServiceSDK0aB0C04sendA0yySSYaKF",
+            "moduleName": "StringServiceSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16StringServiceSDK0aB0C",
+        "mangledName": "$s16StringServiceSDK0aB0C",
+        "moduleName": "StringServiceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StringServiceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionProtocol",
+        "printedName": "URLSessionProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data, Foundation.URLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16StringServiceSDK18URLSessionProtocolP4data3for10Foundation4DataV_So13NSURLResponseCtAF10URLRequestV_tYaKF",
+            "mangledName": "$s16StringServiceSDK18URLSessionProtocolP4data3for10Foundation4DataV_So13NSURLResponseCtAF10URLRequestV_tYaKF",
+            "moduleName": "StringServiceSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : StringServiceSDK.URLSessionProtocol>",
+            "sugared_genericSig": "<Self where Self : StringServiceSDK.URLSessionProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16StringServiceSDK18URLSessionProtocolP",
+        "mangledName": "$s16StringServiceSDK18URLSessionProtocolP",
+        "moduleName": "StringServiceSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "URLSessionProtocol",
+            "printedName": "URLSessionProtocol",
+            "usr": "s:16StringServiceSDK18URLSessionProtocolP",
+            "mangledName": "$s16StringServiceSDK18URLSessionProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

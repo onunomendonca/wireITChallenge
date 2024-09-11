@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StringServiceSDK
+import Foundation
+@_exported import StringServiceSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum StringServiceError : Swift.Error {
+  case invalidURL
+  case invalidResponse
+  public static func == (a: StringServiceSDK.StringServiceError, b: StringServiceSDK.StringServiceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class StringService {
+  public init(session: any StringServiceSDK.URLSessionProtocol = URLSession.shared)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendString(_ string: Swift.String) async throws
+  #endif
+  @objc deinit
+}
+public protocol URLSessionProtocol {
+  #if compiler(>=5.3) && $AsyncAwait
+  func data(for request: Foundation.URLRequest) async throws -> (Foundation.Data, Foundation.URLResponse)
+  #endif
+}
+extension Foundation.URLSession : StringServiceSDK.URLSessionProtocol {
+}
+extension StringServiceSDK.StringServiceError : Swift.Equatable {}
+extension StringServiceSDK.StringServiceError : Swift.Hashable {}
